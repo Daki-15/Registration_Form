@@ -22,6 +22,9 @@ This program requires Python 3.x and the following Python modules:
 - main.py: This is the main Python file that contains the code for the GUI and the user information entry form.
 - design.py: This Python module contains the code for the GUI design, such as window size, color, fonts, and labels.
 
+### Addendum:
+The program also stores the user's information in a MongoDB database. The database connection is established using the PyMongo module. The database name is "User" and the collection name is "user_info". If the user's email address already exists in the database, the program will print a message stating that the email already exists and the information will not be stored in the database.
+
 ### App look like this:
 
 Once the program is launched, you will see a GUI window with the user information entry form.
